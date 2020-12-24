@@ -1,9 +1,23 @@
 $block1: #086da9;
 $block2:#ffd500;
 $block3:rgb(230, 196, 8);
-$block4:#98948b;
+$block4:#494846;
 $primary-text: 'Montserrat', sans-serif;
 $primary-text-clr:#494846;
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  80% {
+    transform: translateX(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
 
 // MEDA QUERIES
 // $bp-4:    "(min-width: 480px)";

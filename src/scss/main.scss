@@ -34,7 +34,32 @@ p {
 img{
     display: block;
     max-width: 100%;
+    //    transition: all 0.3s ease-out;
+//        &:hover {
+//     	transform: scale(1.2, 1.2);
+// 	z-index: 9;
+// }
 
+
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--clr-text, #fff);
+    text-transform: uppercase;
+    font-size: 1.125em;
+    padding: .5em 1.25em;
+    border-radius: .25em;
+    background: var(--clr-accent, #cf003a);
+    transition: 
+    transform 250ms ease-in-out, 
+    opacity 250ms linear;
+}
+.btn:hover,
+.btn:focus {
+    transform: scale(1.1);
+    opacity: .9;
 }
 .container {
     width: 85%;
@@ -85,13 +110,22 @@ text-transform: uppercase;
     background-repeat: no-repeat;
     background-position: center center;
     }
+     @media(max-width: 40em) {
+         padding: 7.5em 0;
+     }
 }
 section {
-    padding: 7rem 0;
+    padding: 3rem 0;
     @media(max-width: 40em) {
    .bottom {
     margin-top: 2rem;
 }
+}
+// .side-img1 {
+// margin-left: 2rem;
+// @media (max-width: 40em) {
+//     margin: 0;
+// }
 }
 .split{
     display: flex;
@@ -108,7 +142,7 @@ section {
         margin-left: 2em;
     }
 }
-}
+
 .text-center {
     text-align: center;
 }
@@ -116,26 +150,45 @@ section {
     margin-inline: auto;
     min-width: 90%;
     max-width: 70.5em;
+    
     // width: min(90%, 70.5rem);
 }
+// iframe {
+//     max-width: 21.5rem;
+// }
 // .container--narrow {
 //     max-width: 35rem;
 // }
 .bg-one {
-    background-color: $block2;
+   background: radial-gradient(
+   #Feed4c, #ffc500);
 }
 .bg-two {
-    background-color: $block1;
+   background: radial-gradient(
+   #4edbf4, #00abd4);
+   color: white;
 
 }
 .bg-three {
-    background-color: $block2;
+     background: radial-gradient(
+   #Feed4c, #ffc500);
 }
 
+
 footer{
-    height: 10vh;
+    // display: flex;
+   
+    // height: 10vh;
     background-color:$block4;
     .logo-img-sm{
-        height: 3rem;
+        display: flex;
+        height:3rem;
+        // margin-left: -1rem;
     }
+}
+.cira{
+    font-size: .5em;
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
 }
