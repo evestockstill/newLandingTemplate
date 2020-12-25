@@ -39,7 +39,9 @@ img{
 //     	transform: scale(1.2, 1.2);
 // 	z-index: 9;
 // }
-
+header {
+    height: 40vh;
+}
 
 }
 .btn {
@@ -72,7 +74,7 @@ img{
     flex-wrap: wrap;
     justify-content: center;
  & > *{
-flex-basis: 30%;
+flex-basis: 40%;
 min-width: 15em;
  }
 }
@@ -97,7 +99,8 @@ text-transform: uppercase;
 .hero {
     color: white;
     text-align: center;
-    padding: 15em 0;
+    padding: 8em 0;
+    height: 70vh;
     background: #222;
     position: relative;
 
@@ -130,6 +133,13 @@ section {
 .split{
     display: flex;
     flex-direction: column;
+    .split-2 {
+        margin-top: -5rem;
+        z-index: 1;
+        @media(max-width: 40em) {
+            margin-top: 1rem;
+        }
+    }
 
 @media (min-width: 40em) {
    
@@ -152,6 +162,11 @@ section {
     max-width: 70.5em;
     
     // width: min(90%, 70.5rem);
+}
+.form-div {
+    background:#00abd4;
+    // margin-top: -15rem;
+    // z-index: -1;
 }
 // iframe {
 //     max-width: 21.5rem;
