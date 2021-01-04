@@ -113,7 +113,7 @@ text-transform: uppercase;
     // clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     @supports ( background-blend-mode: multiply){
     background: url("../img/adobeBuilding.png"), 
-    radial-gradient(rgb(49, 49, 49), #111);
+    radial-gradient(#5c5b5b,#111);
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -194,87 +194,3 @@ footer{
     color:#faf9f9;
 }
 
-
-
-
-
-
-
-
-
-// #pardot-form {
-// color: red ;
-// font: 13px/120% Tahoma,Arial,Helvetica,Verdana,sans-serif;
-// margin: 0.5em 0 1em;
-// padding: 0.5em;
-// }
- form.form p label {
-		        text-align: left;
-		        width: inherit;
-		        font-size: calc(.24vw + 1rem) !important;
-		        font-family: Montserrat;
-                font-weight: 400;
-                font-style: normal;
-                letter-spacing: 0em;
-                text-transform: none;
-                line-height: 1.5em;
-		    } 
-		    form.form p.submit {
-		        margin: 1em 0 0 0;
-		        font-family: Montserrat !important;
-                font-weight: 400;
-                font-style: normal;
-                letter-spacing: 0em;
-                text-transform: none;
-                line-height: 1.5em;
-		    }
-		    
-		    form.form input.text {
-    		    width: 100%;
-                padding: 12px;
-                margin: 6px 0 4px;
-                // border: 1px solid #ccc;
-                background: #fafafa;
-                color: #000;
-                font-family: Montserrat !important;
-                font-size: 12px;
-                line-height: normal;
-                box-sizing: border-box;
-                border-radius: 2px;
-		    }
-		    form.form textarea.standard {
-                width: 100%;
-                padding: 12px;
-                margin: 6px 0 4px;
-                border: 1px solid #ccc;
-                background: #f9f9f9;
-                color: #000;
-                font-family: Montserrat !important;
-                font-size: 12px;
-                line-height: normal;
-                box-sizing: border-box;
-                border-radius: 2px;
-            }
-            form.form p.submit input {
-                border-width: 2px;
-                border-style: none;
-                border-radius: 5px;
-                padding: 1rem;
-                cursor: pointer;
-                background-color: #cf003a;
-                font-size: calc(.24vw + 1rem) !important;
-		        font-family: Montserrat;
-                font-weight: 400;
-                transform: all .2s ease-in;
-            }
-            form.form p.submit input:hover {
-                background-color:rgba(207, 0, 58, .5) !important;
-                color:white;
-                
-            }
-            form.form p.submit {
-                margin-left: 6px;
-            }
-            .g-recaptcha {
-                margin-left: 6px;
-            }
