@@ -109,12 +109,12 @@ text-transform: uppercase;
 
     // clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     @supports ( background-blend-mode: multiply){
-    background: url("../img/adobeBuilding.png"), 
+    background: url("../img/adobeBuilding3.png"), 
     radial-gradient(rgb(49, 49, 49), #111);
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: right center;
     }
      @media(max-width: 40em) {
          padding: 7.5em 0;
